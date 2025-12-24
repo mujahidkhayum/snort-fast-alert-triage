@@ -1,0 +1,12 @@
+09/16-12:34:56.789012 [**] [1:1000001:1] WEB-ATTACK SQLi - UNION SELECT in URI [**] [Priority: 1] {TCP} 10.0.0.5:51514 -> 10.0.0.10:80
+09/16-12:35:01.123456 [**] [1:1000002:1] WEB-ATTACK SQLi - ' OR 1=1 in URI [**] [Priority: 1] {TCP} 10.0.0.5:51515 -> 10.0.0.10:80
+09/16-12:35:10.010101 [**] [1:1000003:1] WEB-ATTACK SQLi - information_schema in URI [**] [Priority: 1] {TCP} 10.0.0.6:51516 -> 10.0.0.10:80
+09/16-12:35:20.020202 [**] [1:1000004:1] WEB-ATTACK SQLi - sleep() time-based attempt in URI [**] [Priority: 1] {TCP} 10.0.0.6:51517 -> 10.0.0.10:80
+09/16-12:36:10.001122 [**] [1:1000008:1] RECON Possible TCP SYN scan (by_src threshold) [**] [Priority: 2] {TCP} 10.0.0.20:44444 -> 10.0.0.30:22
+09/16-12:36:11.201122 [**] [1:1000011:1] RECON HTTP port scan activity (threshold) [**] [Priority: 2] {TCP} 10.0.0.20:44444 -> 10.0.0.30:80
+09/16-12:36:12.301122 [**] [1:1000012:1] RECON HTTPS port scan activity (threshold) [**] [Priority: 2] {TCP} 10.0.0.20:44444 -> 10.0.0.30:443
+09/16-12:37:22.876543 [**] [1:1000017:1] BRUTEFORCE Possible SSH brute force (SYN spike) [**] [Priority: 2] {TCP} 10.0.0.40:53000 -> 10.0.0.30:22
+09/16-12:38:00.555555 [**] [1:1000013:1] DOS Possible TCP SYN flood against HTTP (threshold) [**] [Priority: 1] {TCP} 10.0.0.50:60000 -> 10.0.0.30:80
+09/16-12:38:10.666666 [**] [1:1000015:1] DOS ICMP echo request flood (threshold) [**] [Priority: 1] {ICMP} 10.0.0.51:0 -> 10.0.0.30:0
+09/16-12:39:05.777777 [**] [1:1000020:1] WEB-PROBE Attempt to access /admin [**] [Priority: 2] {TCP} 10.0.0.60:49000 -> 10.0.0.30:80
+09/16-12:39:15.888888 [**] [1:1000024:1] SUSPICIOUS User-Agent contains sqlmap [**] [Priority: 2] {TCP} 10.0.0.61:49001 -> 10.0.0.30:80
